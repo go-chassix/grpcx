@@ -1,0 +1,18 @@
+app:
+  name: grpcx-example
+  version: 1.1.0
+  env: dev
+  debug: no
+server:
+  port: 8000
+  addr: 0.0.0.0
+grpcs:
+  port: 50051
+  addr: 0.0.0.0
+grpcc:
+  addr: localhost:50051
+logging:
+  level: debug  #0 panic 0 fatal 1 error 2 warn 3 info 4 debug 5 trace 6
+  report_caller: yes
+  no_colors: false
+  caller_first: no
