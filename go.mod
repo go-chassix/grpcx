@@ -9,6 +9,8 @@ require (
 	github.com/golang/protobuf v1.4.3
 	github.com/sirupsen/logrus v1.7.0 // indirect
 	golang.org/x/sys v0.0.0-20201106081118-db71ae66460a // indirect
-	google.golang.org/grpc v1.33.1
+	google.golang.org/grpc v1.29.1
 	google.golang.org/protobuf v1.25.0
 )
+
+replace google.golang.org/grpc => github.com/grpc/grpc-go v1.29.1
